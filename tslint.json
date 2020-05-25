@@ -1,0 +1,46 @@
+{
+    "extends": [
+        "tslint:recommended",
+        "tslint-react",
+        "tslint-config-prettier",
+        "tslint-plugin-prettier"
+    ],
+    "jsRules": {},
+    "rules": {
+        "prettier": true,
+        "quotemark": [
+            true,
+            "single",
+            "avoid-escape"
+        ],
+        "no-empty": false,
+        "no-string-literal": false,
+        "no-bitwise": false,
+        "no-console": false,
+        "jsx-self-close": true,
+        "jsx-no-lambda": false,
+        "object-literal-sort-keys": false,
+        "arrow-return-shorthand": true,
+        "curly": [
+            true,
+            "ignore-same-line"
+        ],
+        "no-unused-variable": true,
+        "space-before-function-paren": false,
+        "no-shadowed-variable": false,
+        "import-spacing": true,
+        "space-within-parens": true,
+        "member-access": false,
+        "no-empty-interface": false,
+        "ordered-imports": false,
+        "prefer-const": true,
+        "indent": false,
+        "await-promise": false,
+        "deprecation": false,
+        "no-use-before-declare": false,
+        "no-floating-promises": false,
+        "no-unnecessary-qualifier": false,
+        "no-unnecessary-type-assertion": false,
+        "strict-type-predicates": false
+    }
+}
